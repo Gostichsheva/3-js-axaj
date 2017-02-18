@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Gostichsheva Violetta">
+    <title>Ajax</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="ajaxTask">
+        <div class="btn-group">
+            <button id="nativeXhr" class="btn btn-primary btn-md" data-toggle="button">Native XHR</button>
+            <button id="nativeFetch" class="btn btn-primary btn-md" data-toggle="button">Native Fetch</button>
+            <button id="scriptJsonp" class="btn btn-primary btn-md" data-toggle="button">JSONP & script</button>
+            <button id="ajaxJsonp" class="btn btn-primary btn-md" data-toggle="button">JSONP & $.ajax</button>
+            <button id="ajaxGet" class="btn btn-primary btn-md" data-toggle="button">$.ajax Get</button>
+            <button id="ajaxPost" class="btn btn-primary btn-md" data-toggle="button">$.ajax Post</button>
+            <button id="get" class="btn btn-primary btn-md" data-toggle="button">$.get</button>
+            <button id="post" class="btn btn-primary btn-md" data-toggle="button">$.post</button>
+            <button id="clean" class="btn btn-primary btn-md" data-toggle="button">Clean</button>
+        </div>
+        <div class="result"></div>
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="ajax.js"></script>
+</body>
+
+</html>
