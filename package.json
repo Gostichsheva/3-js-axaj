@@ -1,0 +1,23 @@
+{
+  "name": "3-js-axaj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ajax.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gostichsheva/3-js-axaj.git"
+  },
+  "author": "Violetta Gostichsheva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gostichsheva/3-js-axaj/issues"
+  },
+  "homepage": "https://github.com/Gostichsheva/3-js-axaj#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1"
+  }
+}
